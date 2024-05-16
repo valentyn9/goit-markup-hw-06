@@ -75,7 +75,7 @@ list-style: none;
          border-radius: 4px;
          font-weight: 500;
          line-height: 1.5;
-         color: #FFFFFF;
+         color: #4D5AE5;
          letter-spacing: 0.04em;
          cursor: pointer;
          background-color: #404BBF;
@@ -99,13 +99,14 @@ list-style: none;
       letter-spacing: 0.02em;
       font-family: sans-serif;
       text-transform: capitalize;
+      background-color: #FFFFFF;
 }
 
 .subtitle-text {
       color: #434455;
       font-weight: 400;
       font-size: 16px;
-      line-height: 150%;
+      line-height: 1.5;
       letter-spacing: 0.02em;
       font-family: sans-serif;
 }
@@ -117,7 +118,7 @@ list-style: none;
    
    font-weight: 700;
    font-size: 36px;
-   line-height: 111%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2E2F42;
    text-transform: capitalize;
@@ -147,7 +148,7 @@ list-style: none;
   
    font-weight: 400;
    font-size: 16px;
-   line-height: 1.5%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color:#434455;
   
@@ -196,7 +197,7 @@ list-style: none;
       
          font-weight: 400;
          font-size: 16px;
-         line-height: 1.5%;
+         line-height: 1.5;
          letter-spacing: 0.02em;
          color: #F4F4FD;
  }
