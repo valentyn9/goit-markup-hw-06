@@ -14,14 +14,18 @@ a{
 list-style: none;
  }
 
+.effective{
+   background-color: #2E2F42;
+}
  .logo {
     font-family: Raleway, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #4D5AE5;
+    
     
  }
 
@@ -65,6 +69,7 @@ list-style: none;
       letter-spacing: 0.02em;
       text-align: center;
       color: #FFFFFF;
+
       
 }
 
@@ -76,16 +81,21 @@ list-style: none;
       color: #FFFFFF;
       background-color: #4D5AE5;
       cursor: pointer;
+     
       
 }
 .button:hover,
-.button:focus{
+.button:focus
+{
    color: #404BBF;
 }
 
 /*----------Effective Solutions for Your Business--------*/
 
 /*features*/
+.section-features{
+   
+}
 .subtitle {
       color: #2E2F42;
       font-weight: 500;
@@ -93,6 +103,7 @@ list-style: none;
       line-height: 120%;
       letter-spacing: 0.02em;
       font-family: sans-serif;
+      text-transform: capitalize;
 }
 
 .subtitle-text {
@@ -133,7 +144,7 @@ list-style: none;
 
 
 .img-team-text {
-   font-family: var(--font-family);
+  
    font-weight: 400;
    font-size: 16px;
    line-height: 150%;
@@ -145,7 +156,7 @@ list-style: none;
 
 
 .img-portfolio-desc {
-   font-family: var(--font-family);
+   
       font-weight: 500;
       font-size: 20px;
       line-height: 120%;
@@ -154,26 +165,43 @@ list-style: none;
 }
 
 .img-portfolio-text {
-   font-family: var(--font-family);
+      color: #434455;
       font-weight: 400;
       font-size: 16px;
       line-height: 150%;
       letter-spacing: 0.02em;
-      color: var(--slate);
+   
 }
+  /*features*/
 
+/*footer*/
+.footer{
+   background-color: #2E2F42;
+}
 .link {
    font-family: Raleway,  sans-serif;
    font-weight: 700;
    font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    text-transform: uppercase;
-   color: #4D5AE5;}  
+   color: #4D5AE5;
+   
+}
 
-   .logo-part {
-      color: #2E2F42;
+   .link-part {
+      color: #F4F4FD;
    }
+   .text{
+      
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         letter-spacing: 0.02em;
+         color: #F4F4FD;
+   }
+   
+/*footer*/
 
 
 
