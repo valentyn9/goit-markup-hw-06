@@ -95,7 +95,7 @@ list-style: none;
       color: #2E2F42;
       font-weight: 500;
       font-size: 20px;
-      line-height: 120%;
+      line-height: 1.2;
       letter-spacing: 0.02em;
       font-family: sans-serif;
       text-transform: capitalize;
@@ -171,7 +171,7 @@ list-style: none;
       color: #434455;
       font-weight: 400;
       font-size: 16px;
-      line-height: 150%;
+      line-height: 1.11;
       letter-spacing: 0.02em;
      
    
