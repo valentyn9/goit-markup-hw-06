@@ -19,10 +19,10 @@ list-style: none;
 }
  .logo {
     font-family: Raleway, sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    line-height: 1,17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     
@@ -41,8 +41,8 @@ list-style: none;
         letter-spacing: 0.02em;
  }
  .nav-link:hover,
- .nav-link:focus{
-    color: #404BBF;
+ .nav-link:focus {
+  color: #404BBF;
  }
 
  .address {
@@ -69,25 +69,20 @@ list-style: none;
       letter-spacing: 0.02em;
       text-align: center;
       color: #FFFFFF;
-
-      
 }
 
 .button {
-      border-radius: 4px;
-      padding: 16px 32px;
-      width: 169px;
-      height: 56px;
-      color: #FFFFFF;
-      background-color: #4D5AE5;
-      cursor: pointer;
-     
-      
+         border-radius: 4px;
+         font-weight: 500;
+         line-height: 1, 5;
+         color: #FFFFFF;
+         letter-spacing: 0, 03em;
+         background-color: #4D5AE5;
+         cursor: pointer;
 }
 .button:hover,
-.button:focus
-{
-   color: #404BBF;
+.button:focus {
+ color: #404BBF;
 }
 
 /*----------Effective Solutions for Your Business--------*/
@@ -115,22 +110,21 @@ list-style: none;
       font-family: sans-serif;
 }
 
+.section-our-team{
+   background-color: #F4F4FD;
+}
 .subject {
    
    font-weight: 700;
    font-size: 36px;
    line-height: 111%;
    letter-spacing: 0.02em;
-   text-align: center;
    color: #2E2F42;
+   text-transform: capitalize;
 }
 
-.img-team {
-      border-radius: 0 0 4px 4px;
-      padding: 0px 0px 32px 0px;
-      width: 264px;
-      height: 380px;
-}
+
+ 
 
 .img-team-desc {
    
@@ -138,8 +132,10 @@ list-style: none;
    font-size: 20px;
    line-height: 120%;
    letter-spacing: 0.02em;
-   text-align: center;
-   color: #2E2F42}
+   color: #2E2F42;
+   
+   
+   }
 
 
 
@@ -149,8 +145,7 @@ list-style: none;
    font-size: 16px;
    line-height: 150%;
    letter-spacing: 0.02em;
-   text-align: center;
-   color: #2E2F42;
+   color:#434455;
 }
 
 
@@ -162,10 +157,11 @@ list-style: none;
       line-height: 120%;
       letter-spacing: 0.02em;
       color: #434455;
-}
+      text-transform: capitalize;
+   }
 
 .img-portfolio-text {
-      color: #434455;
+      color: #2E2F42;
       font-weight: 400;
       font-size: 16px;
       line-height: 150%;
@@ -186,20 +182,18 @@ list-style: none;
    letter-spacing: 0.02em;
    text-transform: uppercase;
    color: #4D5AE5;
-   
 }
-
-   .link-part {
-      color: #F4F4FD;
-   }
+.link-part {
+ color: #F4F4FD;
+}
    .text{
       
          font-weight: 400;
          font-size: 16px;
-         line-height: 150%;
-         letter-spacing: 0.02em;
+         line-height: 117%;
+         letter-spacing: 0.03em;
          color: #F4F4FD;
-   }
+ }
    
 /*footer*/
 
