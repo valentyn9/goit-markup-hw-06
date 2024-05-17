@@ -25,13 +25,15 @@ list-style: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    
-    
  }
-
+.logo:hover 
+.logo:focus {
+   color: #404BBF;
+}
  .logo-part {
     color: #2E2F42;
- }
+}
+
 
  .nav-link {
         color:#2E2F42;
@@ -81,8 +83,8 @@ list-style: none;
          background-color: #4D5AE5;
 }
 .button:hover
-.button:focus {
- background-color: #404BBF;
+.button:focus{
+   background-color: #404BBF
 }
 
 /*----------Effective Solutions for Your Business--------*/
