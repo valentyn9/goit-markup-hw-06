@@ -38,7 +38,10 @@ list-style: none;
 .link:focus{
    color: #404BBF;
 }
-
+.link:hover
+.link:focus{
+   color: #404BBF;
+}
  .nav-link {
         color:#2E2F42;
         font-weight: 500;
