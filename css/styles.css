@@ -40,7 +40,7 @@ list-style: none;
         line-height:1.5;
         letter-spacing: 0.02em;
  }
- .nav-link:hover,
+ .nav-link:hover
  .nav-link:focus {
   color: #404BBF;
  }
@@ -123,6 +123,9 @@ list-style: none;
    color: #2E2F42;
    text-transform: capitalize;
    text-align: center;
+  
+}
+.img-team{
    background-color: #FFFFFF;
 }
   .img-team-desc {
@@ -132,7 +135,7 @@ list-style: none;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2E2F42;
-   background-color: #FFFFFF;
+
    
  }
  .img-team-text {
@@ -142,10 +145,19 @@ list-style: none;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color:#434455;
-   background-color: #FFFFFF;
+
 }
 
 .section-our-portfolio {
+   
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 111%;
+      letter-spacing: 0.02em;
+      text-align: center;
+      text-transform: capitalize;
+      text-align: center;
+      background-color: #FFFFFF;
 
 }
 
@@ -163,7 +175,7 @@ list-style: none;
       color: #434455;
       font-weight: 400;
       font-size: 16px;
-      line-height: 1.11;
+      line-height: 1.5;
       letter-spacing: 0.02em;
      
    
