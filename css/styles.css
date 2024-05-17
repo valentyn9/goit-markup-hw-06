@@ -150,16 +150,16 @@ list-style: none;
 
 }
 
-.section-our-portfolio {
+.subject-our-portfolio {
    
       font-weight: 700;
       font-size: 36px;
-      line-height: 111%;
+      line-height: 1.11;
       letter-spacing: 0.02em;
       text-align: center;
       text-transform: capitalize;
       text-align: center;
-      background-color: #FFFFFF;
+      color: #2e2f42;
 
 }
 
