@@ -1,5 +1,5 @@
 
-/*---------logo-----------*/
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -12,19 +12,45 @@ a{
 }
  ul, ol {
 list-style: none;
+padding: 0;
+margin: 0;
  }
+/*---------logo-----------*/
+.header{
+   border-bottom: 1px solid #E7E9FC;
 
-.effective{
-   background-color: #2E2F42;
 }
+.conteiner{
+   width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.conteiner-header{
+   display: flex;
+   align-items: center;
+}
+.navigation{
+   display: flex;
+   align-items: center;
+}
+.nav-list{
+   display: flex;
+   gap: 40px;
+
+}
+
+
  .logo {
-    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
+  
+ 
+
  }
 .logo:hover, 
 .logo:focus {
@@ -40,14 +66,22 @@ list-style: none;
         font-size: 16px;
         line-height:1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0px;
+        display: block;
  }
  .nav-link:hover,
  .nav-link:focus {
   color: #404BBF;
  }
 
+ .address-list {
+    display: flex;
+    gap: 40px;
+   
+}
  .address {
     font-style: normal;
+   margin-left: auto;
  }
 
  .address-link {
@@ -56,12 +90,17 @@ list-style: none;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        
  }
  .address-link:hover,
  .address-link:focus{color: #404BBF;}
 /*---------logo-----------*/
 
 /*----------Effective Solutions for Your Business--------*/
+
+.effective {
+   background-color: #2E2F42;
+}
 .title {
       
       font-weight: 700;
