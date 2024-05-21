@@ -109,6 +109,8 @@ margin: 0;
       letter-spacing: 0.02em;
       text-align: center;
       color: #FFFFFF;
+      padding: 188px 0px;
+      max-width: 496px;
 }
 
 .button {
@@ -119,6 +121,11 @@ margin: 0;
          letter-spacing: 0.04em;
          cursor: pointer;
          background-color: #4D5AE5;
+         display: block;
+         min-width: 169px;
+         height: 56px;
+         border: none;
+         border-radius: 4px;
 }
 .button:hover,
 .button:focus{
@@ -128,8 +135,28 @@ margin: 0;
 /*----------Effective Solutions for Your Business--------*/
 
 /*features*/
+
 .section-features{
-   
+   padding: 120px 0;
+
+}
+.visually-hidden{
+position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+.list-text{
+   display: flex;
+   gap: 24px;
+   margin-right: 24px;
+
 }
 .subtitle {
       color: #2E2F42;
@@ -140,6 +167,8 @@ margin: 0;
       font-family: sans-serif;
       text-transform: capitalize;
       background-color: #FFFFFF;
+      width: calc(100% - 72px)/4;
+      margin-bottom: 8px;
 }
 
 .subtitle-text {
@@ -153,7 +182,19 @@ margin: 0;
 
 .section-our-team{
    background-color: #F4F4FD;
+   padding: 120px 0;
 }
+.img-our-team{
+   display: flex; 
+   gap: 24px;
+   margin-right: 24px;
+   width: calc(100%-72px)/4;
+   border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
 .subject-our-team {
    
    font-weight: 700;
@@ -163,6 +204,9 @@ margin: 0;
    color: #2E2F42;
    text-transform: capitalize;
    text-align: center;
+   margin-bottom: 72px;
+
+
   
 }
 .img-team{
@@ -176,6 +220,7 @@ margin: 0;
    letter-spacing: 0.02em;
    color: #2E2F42;
 
+
    
  }
  .img-team-text {
@@ -184,7 +229,7 @@ margin: 0;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color:#434455;
+  
 
 }
 
