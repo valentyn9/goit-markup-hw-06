@@ -25,7 +25,7 @@ margin: 0;
    padding: 0 15px;
    margin: 0 auto;
 }
-.conteiner-header{
+.header-conteiner{
    display: flex;
    align-items: center;
 }
@@ -101,6 +101,10 @@ margin: 0;
 .effective {
    background-color: #2E2F42;
    padding: 188px 0px;
+}
+.effective-conteiner{
+
+
 }
 .title {
       
@@ -179,6 +183,11 @@ position: absolute;
       margin-bottom: 8px;
 }
 
+.items-text{
+   width: calc(100% - 72px)/4;
+
+}
+
 .subtitle-text {
       color: #434455;
       font-weight: 400;
@@ -195,12 +204,15 @@ position: absolute;
    border-radius: 0px 0px 4px 4px;
 }
 
+.team-conteiner{
+
+
+}
 
 .img-our-team{
    display: flex; 
    gap: 24px;
    margin-right: 24px;
-   
    margin: 0;
    padding: 0;
    
@@ -226,6 +238,11 @@ position: absolute;
 .img-team{
    background-color: #FFFFFF;
    width: calc(100%-72px)/4;
+   border-radius: 0px 0px 4px 4px;
+}
+.team-info{
+padding: 32px 0px;
+
 }
   .img-team-desc {
    
@@ -234,7 +251,8 @@ position: absolute;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2E2F42;
-
+   text-align: center;
+   margin-bottom: 8px;
 
    
  }
@@ -244,6 +262,7 @@ position: absolute;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   text-align: center;
   
 
 }
@@ -256,10 +275,18 @@ text-align: center;
 .portfolio-list{
    list-style: none;
    display: flex;
+   flex-wrap: wrap;
    gap: 24px;
    margin: 0;
    padding: 0;
+   row-gap: 48px;
 
+
+}
+
+.section-our-portfolio{
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 
 .subject-our-portfolio {
@@ -272,7 +299,7 @@ text-align: center;
       text-transform: capitalize;
       text-align: center;
       color: #2e2f42;
-      margin-bottom: 8px;
+      margin-bottom: 72px;
 
 }
 .img-portfolio{
@@ -291,6 +318,9 @@ text-align: center;
       letter-spacing: 0.02em;
       color: #2E2F42;
       text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 8px;
+
    }
 
 .img-portfolio-text {
@@ -299,6 +329,7 @@ text-align: center;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
+      text-align: center;
      
    
 }
@@ -307,6 +338,7 @@ text-align: center;
 /*footer*/
 .footer{
    background-color: #2E2F42;
+   padding: 100px 0;
 }
 .link {
    font-family: Raleway,  sans-serif;
@@ -316,6 +348,8 @@ text-align: center;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4D5AE5;
+   display: inline-block;
+   margin-bottom: 16px;
 }
 .link-part {
  color: #F4F4FD;
