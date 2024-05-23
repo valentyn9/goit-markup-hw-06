@@ -168,7 +168,7 @@ position: absolute;
    display: flex;
    gap: 24px;
    margin-right: 24px;
-   width: calc(100% - 72px)/4;
+   
 
 }
 .subtitle {
@@ -280,6 +280,7 @@ text-align: center;
    margin: 0;
    padding: 0;
    row-gap: 48px;
+   width: calc((100% - 40px) / 3);
 
 
 }
@@ -307,7 +308,8 @@ text-align: center;
    background-repeat: 4px;
    padding: 20px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
-   width: calc((100% - 40px) / 3);
+   
+   display: block;
 }
 
 .img-portfolio-desc {
