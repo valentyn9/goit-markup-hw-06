@@ -33,11 +33,7 @@ margin: 0;
    display: flex;
    align-items: center;
 }
-.nav-list{
-   display: flex;
-   gap: 40px;
 
-}
 
 
  .logo {
@@ -48,16 +44,20 @@ margin: 0;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-  
- 
-
+    font-family: Raleway, sans-serif;
  }
+
 .logo:hover, 
 .logo:focus {
    color: #404BBF;
 }
  .logo-part {
     color: #2E2F42;
+}
+.nav-list {
+   display: flex;
+   gap: 40px;
+
 }
 
  .nav-link {
@@ -100,6 +100,7 @@ margin: 0;
 
 .effective {
    background-color: #2E2F42;
+   padding: 188px 0px;
 }
 .title {
       
@@ -109,8 +110,9 @@ margin: 0;
       letter-spacing: 0.02em;
       text-align: center;
       color: #FFFFFF;
-      padding: 188px 0px;
       max-width: 496px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 .button {
@@ -121,11 +123,15 @@ margin: 0;
          letter-spacing: 0.04em;
          cursor: pointer;
          background-color: #4D5AE5;
-         display: block;
+         display:block;
          min-width: 169px;
          height: 56px;
          border: none;
          border-radius: 4px;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+        
 }
 .button:hover,
 .button:focus{
@@ -152,6 +158,10 @@ position: absolute;
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+
+.list-subtitle{
+width: calc(100% - 72px)/4;
+}
 .list-text{
    display: flex;
    gap: 24px;
@@ -167,7 +177,6 @@ position: absolute;
       font-family: sans-serif;
       text-transform: capitalize;
       background-color: #FFFFFF;
-      width: calc(100% - 72px)/4;
       margin-bottom: 8px;
 }
 
@@ -183,13 +192,16 @@ position: absolute;
 .section-our-team{
    background-color: #F4F4FD;
    padding: 120px 0;
+   width: calc(100%-72px)/4;
+   border-radius: 0px 0px 4px 4px;
 }
+
+
 .img-our-team{
    display: flex; 
    gap: 24px;
    margin-right: 24px;
-   width: calc(100%-72px)/4;
-   border-radius: 0px 0px 4px 4px;
+   
 }
 
 
