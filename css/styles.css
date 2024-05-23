@@ -168,6 +168,7 @@ position: absolute;
    display: flex;
    gap: 24px;
    margin-right: 24px;
+   width: calc(100%-72px)/4;
    
 
 }
@@ -237,7 +238,7 @@ position: absolute;
 }
 .img-team{
    background-color: #FFFFFF;
-   width: calc(100%-72px)/4;
+   
    border-radius: 0px 0px 4px 4px;
 }
 .team-info{
@@ -281,6 +282,7 @@ text-align: center;
    padding: 0;
    row-gap: 48px;
    width: calc((100% - 40px) / 3);
+  
 
 
 }
@@ -303,13 +305,13 @@ text-align: center;
       margin-bottom: 72px;
 
 }
-.img-portfolio{
+.img-portfolio {
    text-align: center;
    background-repeat: 4px;
    padding: 20px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
    
-   display: block;
+   
 }
 
 .img-portfolio-desc {
