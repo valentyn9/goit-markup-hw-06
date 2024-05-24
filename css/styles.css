@@ -195,7 +195,9 @@ width: calc((100% - 72px) / 4);
       letter-spacing: 0.02em;
       font-family: sans-serif;
 }
+ /*features*/
 
+/****our team****/
 .section-our-team{
    background-color: #F4F4FD;
    padding: 120px 0;
@@ -266,6 +268,9 @@ width: calc((100% - 72px) / 4);
   
 
 }
+/****our team****/
+
+/*our portfolio*/
 
 .portfolio-list{
    list-style: none;
@@ -308,8 +313,6 @@ potrfolio-info {
 .img-portfolio {
    text-align: center;
    background-repeat: 4px;
-   padding: 20px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
    width: calc((100% - 48px) / 3);
    
 }
@@ -343,12 +346,13 @@ potrfolio-info {
    max-width: 100%;
    height: auto;
 }
-  /*features*/
+  /*our portfolio*/
 
 /*footer*/
 .footer{
    background-color: #2E2F42;
    padding: 100px 0;
+   
    
 }
 .link {
@@ -372,8 +376,9 @@ potrfolio-info {
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: #F4F4FD;
+         max-width: 264px;
  }
-   
+  
 /*footer*/
 
 
