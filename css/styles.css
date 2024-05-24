@@ -14,7 +14,14 @@ a{
 list-style: none;
 padding: 0;
 margin: 0;
- }
+}
+
+h1, h2, h3, h4, h5, h6{
+margin: 0;
+}
+p{
+   margin: 0;
+}
 /*---------logo-----------*/
 .header{
    border-bottom: 1px solid #E7E9FC;
@@ -185,7 +192,7 @@ width: calc((100% - 72px) / 4);
       text-transform: capitalize;
       background-color: #FFFFFF;
       margin-bottom: 8px;
-      margin: 0;
+     
 }
 
 .subtitle-text {
@@ -233,7 +240,7 @@ width: calc((100% - 72px) / 4);
    text-transform: capitalize;
    text-align: center;
    margin-bottom: 72px;
-   margin: 0;
+  
 
 
   
@@ -257,7 +264,7 @@ width: calc((100% - 72px) / 4);
    color: #2E2F42;
    text-align: center;
    margin-bottom: 8px;
-   margin: 0;
+ 
 
    
  }
@@ -268,7 +275,7 @@ width: calc((100% - 72px) / 4);
    line-height: 1.5;
    letter-spacing: 0.02em;
    text-align: center;
-   margin: 0;
+  
   
 
 }
@@ -303,8 +310,7 @@ width: calc((100% - 72px) / 4);
       text-align: center;
       color: #2e2f42;
       margin-bottom: 72px;
-      margin: 0;
-
+      
 }
 
 
@@ -331,7 +337,7 @@ width: calc((100% - 72px) / 4);
       color: #2E2F42;
       text-transform: capitalize;
       margin-bottom: 8px;
-      margin: 0;
+      
 
    }
 
@@ -341,7 +347,7 @@ width: calc((100% - 72px) / 4);
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      margin: 0;
+     
      
    
 }
@@ -383,7 +389,7 @@ width: calc((100% - 72px) / 4);
          color: #F4F4FD;
          max-width: 264px;
          margin: 0;
- }
+   }
   
 /*footer*/
 
