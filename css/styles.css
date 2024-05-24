@@ -20,12 +20,12 @@ margin: 0;
    border-bottom: 1px solid #E7E9FC;
 
 }
-.conteiner{
+.container{
    width: 1158px;
    padding: 0 15px;
    margin: 0 auto;
 }
-.header-conteiner{
+.header-container{
    display: flex;
    align-items: center;
 }
@@ -102,7 +102,7 @@ margin: 0;
    background-color: #2E2F42;
    padding: 188px 0px;
 }
-.effective-conteiner{
+.effective-container{
 
 
 }
@@ -203,7 +203,7 @@ width: calc(100% - 72px) / 4;
    border-radius: 0px 0px 4px 4px;
 }
 
-.team-conteiner{
+.team-container{
 
 
 }
