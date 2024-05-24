@@ -117,6 +117,7 @@ margin: 0;
       max-width: 496px;
       margin-left: auto;
       margin-right: auto;
+      
 }
 
 .button {
@@ -170,21 +171,21 @@ width: calc((100% - 72px) / 4);
 .list-text{
    display: flex;
    gap: 24px;
-   margin-right: 24px;
-
+   
 }
 
 
 .subtitle {
+      
       color: #2E2F42;
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
-      letter-spacing: 0.02em;
-      font-family: sans-serif;
+      letter-spacing: 0.02em; 
       text-transform: capitalize;
       background-color: #FFFFFF;
       margin-bottom: 8px;
+      margin: 0;
 }
 
 .subtitle-text {
@@ -193,7 +194,7 @@ width: calc((100% - 72px) / 4);
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      font-family: sans-serif;
+      margin: 0;
 }
  /*features*/
 
@@ -232,6 +233,7 @@ width: calc((100% - 72px) / 4);
    text-transform: capitalize;
    text-align: center;
    margin-bottom: 72px;
+   margin: 0;
 
 
   
@@ -255,6 +257,7 @@ width: calc((100% - 72px) / 4);
    color: #2E2F42;
    text-align: center;
    margin-bottom: 8px;
+   margin: 0;
 
    
  }
@@ -265,6 +268,7 @@ width: calc((100% - 72px) / 4);
    line-height: 1.5;
    letter-spacing: 0.02em;
    text-align: center;
+   margin: 0;
   
 
 }
@@ -299,6 +303,7 @@ width: calc((100% - 72px) / 4);
       text-align: center;
       color: #2e2f42;
       margin-bottom: 72px;
+      margin: 0;
 
 }
 
@@ -307,11 +312,11 @@ width: calc((100% - 72px) / 4);
    padding: 32px 16px;
    border: 1px solid #E7E9FC;
    border-top: none;
-   margin-bottom: 8px;
-   text-align: center;
+  
+   
 }
 .img-portfolio {
-   text-align: center;
+   
    background-repeat: 4px;
    width: calc((100% - 48px) / 3);
    
@@ -325,8 +330,8 @@ width: calc((100% - 72px) / 4);
       letter-spacing: 0.02em;
       color: #2E2F42;
       text-transform: capitalize;
-      text-align: center;
       margin-bottom: 8px;
+      margin: 0;
 
    }
 
@@ -336,7 +341,7 @@ width: calc((100% - 72px) / 4);
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      text-align: center;
+      margin: 0;
      
    
 }
@@ -377,6 +382,7 @@ width: calc((100% - 72px) / 4);
          letter-spacing: 0.02em;
          color: #F4F4FD;
          max-width: 264px;
+         margin: 0;
  }
   
 /*footer*/
