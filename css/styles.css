@@ -164,7 +164,7 @@ position: absolute;
 }
 
 .items-text{
-width: calc(100% - 72px) / 4;
+width: calc((100% - 72px) / 4);
  
 }
 .list-text{
