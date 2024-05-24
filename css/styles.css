@@ -171,9 +171,13 @@ width: calc(100% - 72px) / 4;
    display: flex;
    gap: 24px;
    margin-right: 24px;
-   width: calc((100% - 72px) / 4);
+   
    
 
+}
+
+.heading{
+width: calc((100% - 72px) / 4);
 }
 .subtitle {
       color: #2E2F42;
@@ -306,6 +310,7 @@ potrfolio-info {
    padding: 32px 16px;
    border: 1px solid #E7E9FC;
    border-top: none;
+   margin-bottom: 8px;
    text-align: center;
 }
 .img-portfolio {
