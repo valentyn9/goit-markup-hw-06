@@ -171,14 +171,10 @@ width: calc(100% - 72px) / 4;
    display: flex;
    gap: 24px;
    margin-right: 24px;
-   
-   
 
 }
 
-.heading{
-width: calc((100% - 72px) / 4);
-}
+
 .subtitle {
       color: #2E2F42;
       font-weight: 500;
@@ -353,6 +349,7 @@ potrfolio-info {
 .footer{
    background-color: #2E2F42;
    padding: 100px 0;
+   
 }
 .link {
    font-family: Raleway,  sans-serif;
