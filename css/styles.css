@@ -163,7 +163,10 @@ position: absolute;
    overflow: hidden;
 }
 
-
+.items-text{
+width: calc(100% - 72px) / 4;
+ 
+}
 .list-text{
    display: flex;
    gap: 24px;
@@ -183,13 +186,6 @@ position: absolute;
       background-color: #FFFFFF;
       margin-bottom: 8px;
 }
-
-.item-one{
-   width: calc(100% - 72px) / 4;
-}
-  
-
-
 
 .subtitle-text {
       color: #434455;
@@ -244,6 +240,7 @@ position: absolute;
    border-radius: 0px 0px 4px 4px;
 }
 .team-info{
+   padding: 32px 0;
 
 
 }
