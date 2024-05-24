@@ -184,7 +184,9 @@ position: absolute;
       margin-bottom: 8px;
 }
 
-
+.strategy-subtitle{
+   width: calc(100% - 72px) / 4;
+}
   
 
 
