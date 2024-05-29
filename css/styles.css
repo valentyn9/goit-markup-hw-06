@@ -108,8 +108,16 @@ p{
 .effective {
    background-color: #2E2F42;
    padding: 188px 0px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+               rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+         background-repeat: no-repeat;
+         background-position: auto;
+         max-width: 1440px;
+         margin: 0 auto;
 }
 .effective-container{
+
 
 
 }
@@ -126,6 +134,7 @@ p{
       margin-right: auto;
       margin-bottom: 48px;
       
+   
 }
 
 .button {
@@ -174,8 +183,23 @@ position: absolute;
 
 .items-text{
 width: calc((100% - 72px) / 4);
- 
 }
+
+.container-icon{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #8e8f99;
+background-repeat: 4px;
+width: 264px;
+height: 112px;
+background: #F4F4FD;
+margin-bottom: 8px;
+border-radius: 4px;
+transition: background-color;
+
+}
+
 .list-text{
    display: flex;
    gap: 24px;
@@ -276,24 +300,28 @@ width: calc((100% - 72px) / 4);
    line-height: 1.5;
    letter-spacing: 0.02em;
    text-align: center;
-  
-  
+}
+
+.our-list-icon{
+
+
+}
+.team-link{
+
+}
+.team-icon{
+
+}
+
+.team-wrap{
+   
 
 }
 /****our team****/
 
 /*our portfolio*/
 
-.portfolio-list{
-   list-style: none;
-   display: flex;
-   flex-wrap: wrap;
-   gap: 48px 24px;
-   margin: 0;
-   padding: 0;
-   row-gap: 48px;
-   
-}
+
 
 .section-our-portfolio{
    padding-top: 120px;
@@ -313,6 +341,22 @@ width: calc((100% - 72px) / 4);
       margin-bottom: 72px;
       
 }
+.portfolio-list {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 48px 24px;
+   margin: 0;
+   padding: 0;
+   row-gap: 48px;
+
+}
+.img-portfolio {
+
+   background-repeat: 4px;
+   width: calc((100% - 48px) / 3);
+
+}
 
 
 .portfolio-info {
@@ -322,12 +366,12 @@ width: calc((100% - 72px) / 4);
   
    
 }
-.img-portfolio {
-   
-   background-repeat: 4px;
-   width: calc((100% - 48px) / 3);
-   
+.images {
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
+
 
 .img-portfolio-desc {
    
@@ -348,16 +392,9 @@ width: calc((100% - 72px) / 4);
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-     
-     
-   
 }
 
-.images{
-   display: block;
-   max-width: 100%;
-   height: auto;
-}
+
   /*our portfolio*/
 
 /*footer*/
@@ -391,7 +428,25 @@ width: calc((100% - 72px) / 4);
          max-width: 264px;
          margin: 0;
    }
+
+   .footer-text-icon{
+
+
+   }
+
+   .footer-item-icon{
+
+   }
+
+   .footer-icon{
+
+
+   }
   
+   .footer-wrap{
+
+
+   }
 /*footer*/
 
 
