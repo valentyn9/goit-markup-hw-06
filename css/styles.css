@@ -43,6 +43,8 @@ p{
 .navigation{
    display: flex;
    align-items: center;
+   position: relative;
+   color: #404BBF;
 }
 
 
@@ -68,12 +70,11 @@ p{
 .nav-list {
    display: flex;
    gap: 40px;
-   position: relative;
-   color: #404BBF;
+   
 
 }
-.nav-list::after{
-content: ;
+.nav-link::after{
+content: normal;
 width: 100%;
 position: absolute;
 left: 0;
