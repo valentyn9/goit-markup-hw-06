@@ -141,11 +141,12 @@ border-radius: 2px;
          background-position: auto;
          max-width: 1440px;
          margin: 0 auto;
+         background-position: center;
+         background-size: cover;
 }
 .effective-container{
 
-   background-position: center;
-   background-size: cover; 
+   
 
 }
 .title {
@@ -262,9 +263,7 @@ transition: background-color;
 .section-our-team{
    background-color: #F4F4FD;
    padding: 120px 0;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
    border-radius: 0px 0px 4px 4px;
 }
 
@@ -447,7 +446,7 @@ justify-content: center;
    padding: 100px 0;
 }
 
-.footer-conainer{
+.footer-container{
 
    align-items: baseline;
    display: flex;
@@ -503,7 +502,7 @@ justify-content: center;
    .footer-text-icon{
       font-weight: 500;
       font-size: 16px;
-      line-height: 1.5px;
+      line-height: 1.5;
       letter-spacing: 0.02em;
       margin-bottom: 16px;
 
@@ -521,9 +520,7 @@ justify-content: center;
       height: 100%;
 
       }
-      .icon-list:hover{
-         color: #31d0aa;
-      }
+      .icon-list:hover,
       .icon-list:focus{
          color: #31d0aa;
       }
