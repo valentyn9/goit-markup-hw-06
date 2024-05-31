@@ -577,13 +577,9 @@ justify-content: center;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
       }
-      .icon-list:hover{
-         background-color: #31d0aa;
-      }
+      .icon-list:hover,
       .icon-list:focus{
          background-color: #31d0aa;
-         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-         
       }
 
    
