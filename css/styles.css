@@ -339,7 +339,9 @@ transition: background-color;
 }
 
 .our-list-icon{
-
+display: flex;
+justify-content:center;
+gap: 24px;
 
 }
 
