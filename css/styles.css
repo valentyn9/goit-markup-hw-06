@@ -547,6 +547,7 @@ gap: 24px;
 
    .footer-list-icon{
       display: flex;
+      justify-content: center;
       gap: 16px;
 
 
@@ -577,11 +578,7 @@ gap: 24px;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
       }
-      .icon-list:hover,
-      .icon-list:focus{
-         background-color: #31d0aa;
-      }
-
+      
    
 
    .footer-item-icon{
@@ -595,14 +592,17 @@ gap: 24px;
 
    .footer-icon{
       fill: #f4f4fd;
-   }
+   }  
 
+
+   .icon-list:hover,
+   .icon-list:focus {
+   background-color: #31d0aa;
+}
    
   
    .footer-wrap{
-
-
-   }
+}
 /*footer*/
 
 
