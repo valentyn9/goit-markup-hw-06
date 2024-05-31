@@ -595,10 +595,12 @@ gap: 24px;
    }  
 
 
-   .icon-list:hover,
+   .icon-list:hover{
+   background-color: #31d0aa;
+   }
    .icon-list:focus{
    background-color: #31d0aa;
-}
+   }
    
   
    .footer-wrap{
