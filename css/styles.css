@@ -92,7 +92,7 @@ border-radius: 2px;
 }
 
  .nav-link {
-        color:#2E2F42;
+        color:#404bbf;
         font-weight: 500;
         font-size: 16px;
         line-height:1.5;
@@ -353,9 +353,8 @@ gap: 24px;
 .our-team-icon{
       width: 40px;
       height: 40px;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
 .team-link{
 
 display: flex;
@@ -583,7 +582,9 @@ justify-content: center;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
       }
-      .icon-list:hover,
+      .icon-list:hover{
+         background-color: #31d0aa;
+      }
       .icon-list:focus{
          background-color: #31d0aa;
          
