@@ -596,7 +596,7 @@ gap: 24px;
 
 
    .icon-list:hover,
-   .icon-list:focus {
+   .icon-list:focus{
    background-color: #31d0aa;
 }
    
