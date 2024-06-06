@@ -607,6 +607,71 @@ gap: 24px;
   
    .footer-wrap{
 }
+.container-form-footer{
+   display: block;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-text{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #fff;
+}
+::placeholder{
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.form-container{
+   gap: 24px;
+   margin-right: 158px;
+   list-style: none;
+   width: 453px;
+   height: 80px;
+}
+
+.form-footer{
+   margin-right: 24px;
+
+}
+
+.input-form-footer{
+   border: 1px solid #fff;
+   border-radius: 4px;
+   width: 264px;
+   height: 40px;
+   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15);
+   background: #2e2f42;
+   padding: 8px 212px 16px;
+
+}
+
+.btm-form-footer{
+   border-radius: 4px;
+   padding: 8px 24px;
+   width: 165px;
+   height: 40px;
+   background: #4d5ae5;
+   display: flex;
+   gap: 16px;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   text-align: center;
+}
+
+.btm-telegram{}
+
+
 /*footer*/
 
 
