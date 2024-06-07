@@ -868,7 +868,7 @@ gap: 24px;
    color: #4d5ae5;
 }
 .agree-btn-send{
-   
+
 }
 
 .btn-send {
@@ -889,6 +889,7 @@ gap: 24px;
    margin: 0 auto;
    cursor: pointer;
    border: none;
+   font-family:"Roboto",sans-serif;
    transition: backround-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
