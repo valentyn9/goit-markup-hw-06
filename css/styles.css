@@ -772,7 +772,7 @@ gap: 24px;
 }
 
 .modal-field{
-   margin-bottom: 16px;
+   margin-bottom: 8px;
 }
 
 .modal-label {
@@ -812,7 +812,7 @@ gap: 24px;
    transform: translateY(-50%);
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-icon:focus {
+.modal-input:focus > .form-icon{
    fill: #4D5AE5;
 }
 
@@ -867,6 +867,9 @@ gap: 24px;
 .link-accept {
    color: #4d5ae5;
 }
+.agree-btn-send{
+   
+}
 
 .btn-send {
    border-radius: 4px;
@@ -892,4 +895,10 @@ gap: 24px;
 .btn-send:hover,
 .btn-send:focus{
    fill: #FFFFFF;
+}
+
+.modal-check:checked + .user- > .check-span {
+   background-color: #404BBF;
+   fill: #F4F4FD;
+   border: none;
 }
