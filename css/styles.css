@@ -608,9 +608,7 @@ gap: 24px;
    .footer-wrap{
 }
 .container-form-footer{
-   display: block;
-   justify-content: center;
-   align-items: center;
+  
 }
 
 .form-text{
@@ -626,10 +624,7 @@ gap: 24px;
 .form-container{
    gap: 24px;
    display: flex;
-   margin-right: 158px;
-   list-style: none;
-   width: 453px;
-   height: 80px;
+ 
 }
 
 .form-footer{
@@ -643,8 +638,6 @@ gap: 24px;
    width: 264px;
    height: 40px;
    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15);
-   background: #2e2f42;
-   padding: 8px 212px 16px;
    background-color: transparent;
    font-size: 12px;
    line-height: 2;
@@ -681,6 +674,7 @@ gap: 24px;
 
 .btm-telegram{
    margin-left: 16px;
+   fill: #fff;
 }
 
 /*footer*/
