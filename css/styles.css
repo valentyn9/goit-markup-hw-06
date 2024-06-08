@@ -541,11 +541,9 @@ gap: 24px;
    }
 
       .footer-container-icon {
-        
-        
-         
-         
-      }
+
+      margin-right: 80px;
+ }
 
    .footer-list-icon{
       display: flex;
@@ -653,7 +651,7 @@ gap: 24px;
 
 .btm-form-footer{
    border-radius: 4px;
-   padding: 8px 24px;
+   
    width: 165px;
    height: 40px;
    background: #4d5ae5;
@@ -811,7 +809,11 @@ gap: 24px;
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.user-field:checked+.user-agree>.part-agree {
+   background-color: #404BBF;
+   fill: #F4F4FD;
+   border: none;
+}
 .modal-text-area {
    width: 100%;
    height: 120px;
@@ -860,11 +862,11 @@ gap: 24px;
    justify-content: center;
    fill: transparent; 
    border-radius: 2px;
-
-   
 }
 
-.icon-checkbox {}
+.icon-checkbox { 
+
+}
 
 .link-accept {
    color: #4d5ae5;
@@ -899,8 +901,3 @@ gap: 24px;
    fill: #FFFFFF;
 }
 
-.user-field:checked + .user-agree > .part-agree {
-   background-color: #404BBF;
-   fill: #F4F4FD;
-   border: none;
-}
