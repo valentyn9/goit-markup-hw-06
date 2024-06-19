@@ -6,6 +6,11 @@ body{
     background: #fff 
 }
 
+html,
+body {
+   overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 
@@ -22,14 +27,16 @@ margin: 0;
 p{
    margin: 0;
 }
-/*---------logo-----------*/
-.header{
-   border-bottom: 1px solid #E7E9FC;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 1px 6px rgba(46, 47, 66, 0.08);
 
+img{
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
+
+
+/*---------logo-----------*/
+
 .container{
    max-width: 320px;
    padding: 0 16px;
@@ -50,7 +57,13 @@ p{
    
 }
 
+.header {
+   border-bottom: 1px solid #E7E9FC;
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 1px 6px rgba(46, 47, 66, 0.08);
 
+}
 .header-container{
    display: flex;
    align-items: center;
@@ -443,8 +456,8 @@ p{
 .title {
       
       font-weight: 700;
-      /* font-size: 56px; */
-      line-height: 107%;
+      font-size: 36px;
+      line-height: 111%;
       letter-spacing: 0.02em;
       text-align: center;
       color: #FFFFFF;
@@ -452,6 +465,7 @@ p{
       max-width: 216px;
       margin: auto;
       /* margin-bottom: 48px; */
+   
       
    
 }
@@ -465,8 +479,10 @@ p{
          cursor: pointer;
          background-color: #4D5AE5;
          display:block;
-         min-width: 169px;
+         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+         width: 169px;
          height: 56px;
+         padding: 16px 32px;
          border: none;
          border-radius: 4px;
          text-align: center;
